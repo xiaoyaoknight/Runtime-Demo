@@ -8,13 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		C75EBB2A2282BC7E00372EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB292282BC7E00372EEA /* AppDelegate.m */; };
-		C75EBB2D2282BC7E00372EEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB2C2282BC7E00372EEA /* ViewController.m */; };
 		C75EBB302282BC7E00372EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75EBB2E2282BC7E00372EEA /* Main.storyboard */; };
 		C75EBB322282BC7E00372EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75EBB312282BC7E00372EEA /* Assets.xcassets */; };
 		C75EBB352282BC7E00372EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75EBB332282BC7E00372EEA /* LaunchScreen.storyboard */; };
 		C75EBB382282BC7E00372EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB372282BC7E00372EEA /* main.m */; };
 		C75EBB422282BC7E00372EEA /* Runtime_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB412282BC7E00372EEA /* Runtime_DemoTests.m */; };
 		C75EBB4D2282BC7F00372EEA /* Runtime_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB4C2282BC7F00372EEA /* Runtime_DemoUITests.m */; };
+		C75EBB77228406A800372EEA /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB5B228406A400372EEA /* Test1ViewController.m */; };
+		C75EBB78228406A800372EEA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB5C228406A400372EEA /* RootViewController.m */; };
+		C75EBB7B228406A800372EEA /* Test7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB62228406A400372EEA /* Test7ViewController.m */; };
+		C75EBB7E228406A800372EEA /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB66228406A600372EEA /* Test3ViewController.m */; };
+		C75EBB7F228406A800372EEA /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB68228406A600372EEA /* Test2ViewController.m */; };
+		C75EBB83228406A800372EEA /* Test5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB6D228406A700372EEA /* Test5ViewController.m */; };
+		C75EBB86228406A800372EEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB71228406A800372EEA /* Person.m */; };
+		C75EBB87228406A800372EEA /* Test6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB74228406A800372EEA /* Test6ViewController.m */; };
+		C75EBB8C228566C300372EEA /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB8B228566C300372EEA /* MJPerson.m */; };
+		C75EBB8F228566D400372EEA /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB8E228566D400372EEA /* MJStudent.m */; };
+		C75EBB92228566E600372EEA /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB91228566E600372EEA /* MJGoodStudent.m */; };
+		C75EBB962289456D00372EEA /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBB952289456D00372EEA /* MyTest.m */; };
+		C75EBBDD22897CDA00372EEA /* ClassInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBDC22897CDA00372EEA /* ClassInfo.mm */; };
+		C75EBBE0228982B900372EEA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBDF228982B900372EEA /* Animal.m */; };
+		C75EBBE3228982C500372EEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBE2228982C500372EEA /* Dog.m */; };
+		C75EBBE6228982DA00372EEA /* HaShiqi.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBE5228982DA00372EEA /* HaShiqi.m */; };
+		C75EBBEA228983D100372EEA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBE9228983D100372EEA /* Book.m */; };
+		C75EBBED228983EB00372EEA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBEC228983EB00372EEA /* Car.m */; };
+		C75EBBF1228A6EEF00372EEA /* Test8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */; };
+		C75EBBF4228A6F6F00372EEA /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBF3228A6F6F00372EEA /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +57,6 @@
 		C75EBB252282BC7E00372EEA /* Runtime-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75EBB282282BC7E00372EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C75EBB292282BC7E00372EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C75EBB2B2282BC7E00372EEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C75EBB2C2282BC7E00372EEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C75EBB2F2282BC7E00372EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C75EBB312282BC7E00372EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75EBB342282BC7E00372EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,46 @@
 		C75EBB482282BC7E00372EEA /* Runtime-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Runtime-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75EBB4C2282BC7F00372EEA /* Runtime_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime_DemoUITests.m; sourceTree = "<group>"; };
 		C75EBB4E2282BC7F00372EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75EBB5B228406A400372EEA /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		C75EBB5C228406A400372EEA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C75EBB5E228406A400372EEA /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		C75EBB60228406A400372EEA /* Test6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test6ViewController.h; sourceTree = "<group>"; };
+		C75EBB62228406A400372EEA /* Test7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test7ViewController.m; sourceTree = "<group>"; };
+		C75EBB65228406A600372EEA /* Test2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		C75EBB66228406A600372EEA /* Test3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		C75EBB67228406A600372EEA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C75EBB68228406A600372EEA /* Test2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		C75EBB6C228406A700372EEA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C75EBB6D228406A700372EEA /* Test5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test5ViewController.m; sourceTree = "<group>"; };
+		C75EBB6F228406A700372EEA /* Test3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		C75EBB71228406A800372EEA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C75EBB73228406A800372EEA /* Test5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test5ViewController.h; sourceTree = "<group>"; };
+		C75EBB74228406A800372EEA /* Test6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test6ViewController.m; sourceTree = "<group>"; };
+		C75EBB75228406A800372EEA /* Test7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test7ViewController.h; sourceTree = "<group>"; };
+		C75EBB8A228566C300372EEA /* MJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		C75EBB8B228566C300372EEA /* MJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		C75EBB8D228566D400372EEA /* MJStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		C75EBB8E228566D400372EEA /* MJStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		C75EBB90228566E600372EEA /* MJGoodStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJGoodStudent.h; sourceTree = "<group>"; };
+		C75EBB91228566E600372EEA /* MJGoodStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJGoodStudent.m; sourceTree = "<group>"; };
+		C75EBB942289456D00372EEA /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		C75EBB952289456D00372EEA /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
+		C75EBB992289622E00372EEA /* ClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassInfo.h; sourceTree = "<group>"; };
+		C75EBBDC22897CDA00372EEA /* ClassInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ClassInfo.mm; sourceTree = "<group>"; };
+		C75EBBDE228982B900372EEA /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		C75EBBDF228982B900372EEA /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		C75EBBE1228982C500372EEA /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C75EBBE2228982C500372EEA /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C75EBBE4228982DA00372EEA /* HaShiqi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaShiqi.h; sourceTree = "<group>"; };
+		C75EBBE5228982DA00372EEA /* HaShiqi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaShiqi.m; sourceTree = "<group>"; };
+		C75EBBE8228983D100372EEA /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		C75EBBE9228983D100372EEA /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		C75EBBEB228983EB00372EEA /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		C75EBBEC228983EB00372EEA /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8ViewController.h; sourceTree = "<group>"; };
+		C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test8ViewController.m; sourceTree = "<group>"; };
+		C75EBBF2228A6F6F00372EEA /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		C75EBBF3228A6F6F00372EEA /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +160,18 @@
 			children = (
 				C75EBB282282BC7E00372EEA /* AppDelegate.h */,
 				C75EBB292282BC7E00372EEA /* AppDelegate.m */,
-				C75EBB2B2282BC7E00372EEA /* ViewController.h */,
-				C75EBB2C2282BC7E00372EEA /* ViewController.m */,
+				C75EBB6C228406A700372EEA /* RootViewController.h */,
+				C75EBB5C228406A400372EEA /* RootViewController.m */,
+				C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */,
+				C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */,
+				C75EBBF2228A6F6F00372EEA /* Tool.h */,
+				C75EBBF3228A6F6F00372EEA /* Tool.m */,
+				C75EBB892285669100372EEA /* 探寻过程 */,
+				C75EBB932285857700372EEA /* Class */,
+				C75EBB982289468F00372EEA /* 方法替换 */,
+				C75EBBEE22898B9200372EEA /* 消息转发 */,
+				C75EBB972289468500372EEA /* 动态添加方法 */,
+				C75EBBE72289835A00372EEA /* 消息发送 */,
 				C75EBB2E2282BC7E00372EEA /* Main.storyboard */,
 				C75EBB312282BC7E00372EEA /* Assets.xcassets */,
 				C75EBB332282BC7E00372EEA /* LaunchScreen.storyboard */,
@@ -130,6 +197,82 @@
 				C75EBB4E2282BC7F00372EEA /* Info.plist */,
 			);
 			path = "Runtime-DemoUITests";
+			sourceTree = "<group>";
+		};
+		C75EBB892285669100372EEA /* 探寻过程 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB67228406A600372EEA /* Person.h */,
+				C75EBB71228406A800372EEA /* Person.m */,
+				C75EBB5E228406A400372EEA /* Test1ViewController.h */,
+				C75EBB5B228406A400372EEA /* Test1ViewController.m */,
+			);
+			name = "探寻过程";
+			sourceTree = "<group>";
+		};
+		C75EBB932285857700372EEA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB65228406A600372EEA /* Test2ViewController.h */,
+				C75EBB68228406A600372EEA /* Test2ViewController.m */,
+				C75EBB992289622E00372EEA /* ClassInfo.h */,
+				C75EBBDC22897CDA00372EEA /* ClassInfo.mm */,
+				C75EBB8A228566C300372EEA /* MJPerson.h */,
+				C75EBB8B228566C300372EEA /* MJPerson.m */,
+				C75EBB8D228566D400372EEA /* MJStudent.h */,
+				C75EBB8E228566D400372EEA /* MJStudent.m */,
+				C75EBB90228566E600372EEA /* MJGoodStudent.h */,
+				C75EBB91228566E600372EEA /* MJGoodStudent.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		C75EBB972289468500372EEA /* 动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB75228406A800372EEA /* Test7ViewController.h */,
+				C75EBB62228406A400372EEA /* Test7ViewController.m */,
+				C75EBB942289456D00372EEA /* MyTest.h */,
+				C75EBB952289456D00372EEA /* MyTest.m */,
+			);
+			name = "动态添加方法";
+			sourceTree = "<group>";
+		};
+		C75EBB982289468F00372EEA /* 方法替换 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB60228406A400372EEA /* Test6ViewController.h */,
+				C75EBB74228406A800372EEA /* Test6ViewController.m */,
+			);
+			name = "方法替换";
+			sourceTree = "<group>";
+		};
+		C75EBBE72289835A00372EEA /* 消息发送 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB6F228406A700372EEA /* Test3ViewController.h */,
+				C75EBB66228406A600372EEA /* Test3ViewController.m */,
+				C75EBBDE228982B900372EEA /* Animal.h */,
+				C75EBBDF228982B900372EEA /* Animal.m */,
+				C75EBBE1228982C500372EEA /* Dog.h */,
+				C75EBBE2228982C500372EEA /* Dog.m */,
+				C75EBBE4228982DA00372EEA /* HaShiqi.h */,
+				C75EBBE5228982DA00372EEA /* HaShiqi.m */,
+			);
+			name = "消息发送";
+			sourceTree = "<group>";
+		};
+		C75EBBEE22898B9200372EEA /* 消息转发 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBB73228406A800372EEA /* Test5ViewController.h */,
+				C75EBB6D228406A700372EEA /* Test5ViewController.m */,
+				C75EBBE8228983D100372EEA /* Book.h */,
+				C75EBBE9228983D100372EEA /* Book.m */,
+				C75EBBEB228983EB00372EEA /* Car.h */,
+				C75EBBEC228983EB00372EEA /* Car.m */,
+			);
+			name = "消息转发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +405,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75EBB2D2282BC7E00372EEA /* ViewController.m in Sources */,
+				C75EBB83228406A800372EEA /* Test5ViewController.m in Sources */,
+				C75EBB86228406A800372EEA /* Person.m in Sources */,
+				C75EBB77228406A800372EEA /* Test1ViewController.m in Sources */,
+				C75EBBF4228A6F6F00372EEA /* Tool.m in Sources */,
+				C75EBB7E228406A800372EEA /* Test3ViewController.m in Sources */,
+				C75EBB8C228566C300372EEA /* MJPerson.m in Sources */,
+				C75EBBE0228982B900372EEA /* Animal.m in Sources */,
+				C75EBBDD22897CDA00372EEA /* ClassInfo.mm in Sources */,
+				C75EBB8F228566D400372EEA /* MJStudent.m in Sources */,
+				C75EBB92228566E600372EEA /* MJGoodStudent.m in Sources */,
+				C75EBBEA228983D100372EEA /* Book.m in Sources */,
+				C75EBBED228983EB00372EEA /* Car.m in Sources */,
+				C75EBB78228406A800372EEA /* RootViewController.m in Sources */,
+				C75EBB962289456D00372EEA /* MyTest.m in Sources */,
 				C75EBB382282BC7E00372EEA /* main.m in Sources */,
+				C75EBB7F228406A800372EEA /* Test2ViewController.m in Sources */,
+				C75EBB7B228406A800372EEA /* Test7ViewController.m in Sources */,
+				C75EBB87228406A800372EEA /* Test6ViewController.m in Sources */,
+				C75EBBF1228A6EEF00372EEA /* Test8ViewController.m in Sources */,
+				C75EBBE6228982DA00372EEA /* HaShiqi.m in Sources */,
+				C75EBBE3228982C500372EEA /* Dog.m in Sources */,
 				C75EBB2A2282BC7E00372EEA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
