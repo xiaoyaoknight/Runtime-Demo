@@ -33,7 +33,6 @@
 		C75EBBEA228983D100372EEA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBE9228983D100372EEA /* Book.m */; };
 		C75EBBED228983EB00372EEA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBEC228983EB00372EEA /* Car.m */; };
 		C75EBBF1228A6EEF00372EEA /* Test8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */; };
-		C75EBBF4228A6F6F00372EEA /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBF3228A6F6F00372EEA /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,8 +105,6 @@
 		C75EBBEC228983EB00372EEA /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8ViewController.h; sourceTree = "<group>"; };
 		C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test8ViewController.m; sourceTree = "<group>"; };
-		C75EBBF2228A6F6F00372EEA /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
-		C75EBBF3228A6F6F00372EEA /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +132,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C73E7EC7228AE4F700269112 /* super的本质 */ = {
+			isa = PBXGroup;
+			children = (
+				C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */,
+				C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */,
+			);
+			name = "super的本质";
+			sourceTree = "<group>";
+		};
 		C75EBB1C2282BC7E00372EEA = {
 			isa = PBXGroup;
 			children = (
@@ -162,10 +168,7 @@
 				C75EBB292282BC7E00372EEA /* AppDelegate.m */,
 				C75EBB6C228406A700372EEA /* RootViewController.h */,
 				C75EBB5C228406A400372EEA /* RootViewController.m */,
-				C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */,
-				C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */,
-				C75EBBF2228A6F6F00372EEA /* Tool.h */,
-				C75EBBF3228A6F6F00372EEA /* Tool.m */,
+				C73E7EC7228AE4F700269112 /* super的本质 */,
 				C75EBB892285669100372EEA /* 探寻过程 */,
 				C75EBB932285857700372EEA /* Class */,
 				C75EBB982289468F00372EEA /* 方法替换 */,
@@ -408,7 +411,6 @@
 				C75EBB83228406A800372EEA /* Test5ViewController.m in Sources */,
 				C75EBB86228406A800372EEA /* Person.m in Sources */,
 				C75EBB77228406A800372EEA /* Test1ViewController.m in Sources */,
-				C75EBBF4228A6F6F00372EEA /* Tool.m in Sources */,
 				C75EBB7E228406A800372EEA /* Test3ViewController.m in Sources */,
 				C75EBB8C228566C300372EEA /* MJPerson.m in Sources */,
 				C75EBBE0228982B900372EEA /* Animal.m in Sources */,
