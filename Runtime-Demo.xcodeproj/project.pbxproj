@@ -33,6 +33,10 @@
 		C75EBBEA228983D100372EEA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBE9228983D100372EEA /* Book.m */; };
 		C75EBBED228983EB00372EEA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBEC228983EB00372EEA /* Car.m */; };
 		C75EBBF1228A6EEF00372EEA /* Test8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */; };
+		C76AC5DD22CCD14C001B80D5 /* Test9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AC5DC22CCD14C001B80D5 /* Test9ViewController.m */; };
+		C76AC5E022CCD185001B80D5 /* NSArray+ArrayBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AC5DF22CCD185001B80D5 /* NSArray+ArrayBounds.m */; };
+		C76AC5E322CCD6A8001B80D5 /* NSDictionary+CESafeExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AC5E122CCD6A8001B80D5 /* NSDictionary+CESafeExt.m */; };
+		C76AC5E622CCD716001B80D5 /* NSObject+CEHook.m in Sources */ = {isa = PBXBuildFile; fileRef = C76AC5E522CCD716001B80D5 /* NSObject+CEHook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +109,14 @@
 		C75EBBEC228983EB00372EEA /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		C75EBBEF228A6EEF00372EEA /* Test8ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8ViewController.h; sourceTree = "<group>"; };
 		C75EBBF0228A6EEF00372EEA /* Test8ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test8ViewController.m; sourceTree = "<group>"; };
+		C76AC5DB22CCD14C001B80D5 /* Test9ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9ViewController.h; sourceTree = "<group>"; };
+		C76AC5DC22CCD14C001B80D5 /* Test9ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test9ViewController.m; sourceTree = "<group>"; };
+		C76AC5DE22CCD185001B80D5 /* NSArray+ArrayBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ArrayBounds.h"; sourceTree = "<group>"; };
+		C76AC5DF22CCD185001B80D5 /* NSArray+ArrayBounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayBounds.m"; sourceTree = "<group>"; };
+		C76AC5E122CCD6A8001B80D5 /* NSDictionary+CESafeExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CESafeExt.m"; sourceTree = "<group>"; };
+		C76AC5E222CCD6A8001B80D5 /* NSDictionary+CESafeExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CESafeExt.h"; sourceTree = "<group>"; };
+		C76AC5E422CCD716001B80D5 /* NSObject+CEHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CEHook.h"; sourceTree = "<group>"; };
+		C76AC5E522CCD716001B80D5 /* NSObject+CEHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CEHook.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,7 @@
 				C75EBB292282BC7E00372EEA /* AppDelegate.m */,
 				C75EBB6C228406A700372EEA /* RootViewController.h */,
 				C75EBB5C228406A400372EEA /* RootViewController.m */,
+				C76AC5DA22CCD134001B80D5 /* 防止数据越界 */,
 				C73E7EC7228AE4F700269112 /* super的本质 */,
 				C75EBB892285669100372EEA /* 探寻过程 */,
 				C75EBB932285857700372EEA /* Class */,
@@ -276,6 +289,21 @@
 				C75EBBEC228983EB00372EEA /* Car.m */,
 			);
 			name = "消息转发";
+			sourceTree = "<group>";
+		};
+		C76AC5DA22CCD134001B80D5 /* 防止数据越界 */ = {
+			isa = PBXGroup;
+			children = (
+				C76AC5DE22CCD185001B80D5 /* NSArray+ArrayBounds.h */,
+				C76AC5DF22CCD185001B80D5 /* NSArray+ArrayBounds.m */,
+				C76AC5E422CCD716001B80D5 /* NSObject+CEHook.h */,
+				C76AC5E522CCD716001B80D5 /* NSObject+CEHook.m */,
+				C76AC5DB22CCD14C001B80D5 /* Test9ViewController.h */,
+				C76AC5DC22CCD14C001B80D5 /* Test9ViewController.m */,
+				C76AC5E222CCD6A8001B80D5 /* NSDictionary+CESafeExt.h */,
+				C76AC5E122CCD6A8001B80D5 /* NSDictionary+CESafeExt.m */,
+			);
+			path = "防止数据越界";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,14 +441,17 @@
 				C75EBB77228406A800372EEA /* Test1ViewController.m in Sources */,
 				C75EBB7E228406A800372EEA /* Test3ViewController.m in Sources */,
 				C75EBB8C228566C300372EEA /* MJPerson.m in Sources */,
+				C76AC5E322CCD6A8001B80D5 /* NSDictionary+CESafeExt.m in Sources */,
 				C75EBBE0228982B900372EEA /* Animal.m in Sources */,
 				C75EBBDD22897CDA00372EEA /* ClassInfo.mm in Sources */,
+				C76AC5E022CCD185001B80D5 /* NSArray+ArrayBounds.m in Sources */,
 				C75EBB8F228566D400372EEA /* MJStudent.m in Sources */,
 				C75EBB92228566E600372EEA /* MJGoodStudent.m in Sources */,
 				C75EBBEA228983D100372EEA /* Book.m in Sources */,
 				C75EBBED228983EB00372EEA /* Car.m in Sources */,
 				C75EBB78228406A800372EEA /* RootViewController.m in Sources */,
 				C75EBB962289456D00372EEA /* MyTest.m in Sources */,
+				C76AC5E622CCD716001B80D5 /* NSObject+CEHook.m in Sources */,
 				C75EBB382282BC7E00372EEA /* main.m in Sources */,
 				C75EBB7F228406A800372EEA /* Test2ViewController.m in Sources */,
 				C75EBB7B228406A800372EEA /* Test7ViewController.m in Sources */,
@@ -428,6 +459,7 @@
 				C75EBBF1228A6EEF00372EEA /* Test8ViewController.m in Sources */,
 				C75EBBE6228982DA00372EEA /* HaShiqi.m in Sources */,
 				C75EBBE3228982C500372EEA /* Dog.m in Sources */,
+				C76AC5DD22CCD14C001B80D5 /* Test9ViewController.m in Sources */,
 				C75EBB2A2282BC7E00372EEA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,8 @@
 #import "Test6ViewController.h"
 #import "Test7ViewController.h"
 #import "Test8ViewController.h"
+#import "Test9ViewController.h"
+
 
 @interface RootViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -27,7 +29,16 @@
     [super viewDidLoad];
     self.title = @"Runtime-Demo";
     
-    self.dataArray = [[NSArray alloc] initWithObjects:@"探寻过程（isa本质，取值，设值，位域，共用体，isa_t）",@"Class的结构", @"消息发送", @"动态解析",@"消息转发", @"方法替换", @"super的本质", nil];
+    self.dataArray = [[NSArray alloc] initWithObjects:
+                      @"探寻过程（isa本质，取值，设值，位域，共用体，isa_t）",
+                      @"Class的结构",
+                      @"消息发送",
+                      @"动态解析",
+                      @"消息转发",
+                      @"方法替换",
+                      @"super的本质",
+                      @"防止数据越界",
+                      nil];
     
     self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
     [self.view addSubview:self.tableview];
@@ -96,6 +107,12 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.row == 6) {
         Test8ViewController *test8VC = [[Test8ViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test8VC];
+        [self presentViewController:nav animated:YES completion:nil];
+    }
+    
+    if (indexPath.row == 7) {
+        Test9ViewController *test8VC = [[Test9ViewController alloc] init];
         UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test8VC];
         [self presentViewController:nav animated:YES completion:nil];
     }
